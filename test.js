@@ -2,7 +2,7 @@ const { execSync } = require("child_process");
 const fs = require("fs");
 
 const NUM_DAYS = 365;
-const MAX_COMMITS_PER_DAY = 5;
+const MAX_COMMITS_PER_DAY = 2;
 
 const today = new Date();
 
